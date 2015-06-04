@@ -75,3 +75,9 @@ linc
 hello, linc
 ```
 
+Ö´ÐÐ£º![ex1.py](../exs/ex1.py)
+```
+D:\practise\git\python-learn\exs>python ex1.py
+please enter your name:minc
+hello ,  minc
+```
