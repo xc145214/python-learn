@@ -75,7 +75,7 @@ linc
 hello, linc
 ```
 
-执行：![ex1.py](../exs/ex1.py)
+执行：[ex1.py](../exs/ex1.py)
 ```
 D:\practise\git\python-learn\exs>python ex1.py
 please enter your name:minc
