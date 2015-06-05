@@ -139,7 +139,7 @@ u'Hi, Michael'
 
 + 小结
 
-Python 2.x版本虽然支持Unicode，但在语法上需要`'xxx'`和`u'xxx'`两种字符串表示方式。
+Python 2.x版本虽然支持Unicode，但在语法上需要`'xxx'`和`u'xxx'`两种字符串表示方式。参考[string](../exs/ex1.py)
 
 Python当然也支持其他编码方式，比如把Unicode编码成GB2312：
 ```
