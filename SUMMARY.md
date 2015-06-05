@@ -2,4 +2,5 @@
 
 * [1. python入门](articles/lesson1.md)
 * [2. 语法基础](articles/lesson2.md)
-    * [2.1 字符串与编码](articles/lesson2_1.md)
+    * [2.1 数据类型与变量](articles/lesson2_1.md)
+    * [2.2 字符编码与字符串](articles/lesson2_2.md)
