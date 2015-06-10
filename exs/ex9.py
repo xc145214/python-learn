@@ -8,8 +8,9 @@ import math
 
 # 计算面积
 
+
 def area_of_circle(r):
-    if not isinstance(r,(int,float)):
+    if not isinstance(r, (int, float)):
         raise TypeError('bad operand type')
     return math.pi * r * r
 
@@ -30,17 +31,18 @@ def sum_num(n):
 print sum_num(range(1, 101))
 
 # 函数嵌套调用
+
+
 def fun1(n):
-	l = []
-	for x in range(1,n+1):
-		l.append(x*x+1)
-	return l
+    l = []
+    for x in range(1, n + 1):
+        l.append(x * x + 1)
+    return l
 
 print sum_num(fun1(100))
 
 
-
-#定义函数　my_abs()
+# 定义函数　my_abs()
 def my_abs(x):
     if not isinstance(x, (int, float)):
         raise TypeError('bad operand type')
@@ -52,8 +54,10 @@ def my_abs(x):
 
 print my_abs(-1.23)
 
-#my_abs('AA')
+# my_abs('AA')
 # 定义空函数
+
+
 def nop():
     pass
 
@@ -64,14 +68,16 @@ if age >= 18:
 
 # 返回多个值
 
-def move(x,y,step,angle = 0):
+def move(x, y, step, angle=0):
     nx = x + step * math.cos(angle)
     ny = y + step * math.sin(angle)
-    return nx,ny
+    return nx, ny
 
-x,y = move(100,100,60,math.pi/6)
-print x,y
+x, y = move(100, 100, 60, math.pi / 6)
+print x, y
 
-r = move(100,100,60,math.pi/6)
+r = move(100, 100, 60, math.pi / 6)
 
 print r
+
+# 实际上返回的是个tuple

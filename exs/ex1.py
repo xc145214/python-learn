@@ -9,3 +9,4 @@ print u'A的ASCII编码：', ord('A')
 
 print u'中文'
 
+
